@@ -70,10 +70,42 @@ play = () => {
   }
 ```
 
-There's a tiny bug in the above code. When an prop is passed in for the new URL is passed in, the state of the button is in the play state which displays the play button instead of the pause button. The fix is to change the state to a play state when the props change.
+There's a tiny bug in the above code. When the new URL is passed in, the state of the button is in the play state which displays the play button instead of the pause button. The fix is to change the state to a play state when the props change.
 
 ```
 componentWillReceiveProps() {
     this.setState({ play: true });
 }
 ```
+## Timeline
+
+Now things get complicated. I've got to create a timeline with a handle. I want to drag the handle to a specific point in the audio. I also want to move the handle to any point in the timeline when I click on the timeline. I've got to create the UI fefore any functionality gets added. 
+
+That's probably the easiest part. I can just add a couple of `div` tags . . .
+
+```
+<div id="timeline">
+    <div id="handle" />
+</div>
+```
+
+and style them to look like the timeline in the mockup above.
+
+```
+#timeline{
+    width: 400px;
+    height: 20px;
+    border-radius: 15px;
+    background: rgba(0,0,0,.3);
+}
+
+#handle{
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	margin-top: 1px;
+	background: rgba(0, 0, 0,1);
+}
+```
+
+Not exactly the same look, but close enough.
