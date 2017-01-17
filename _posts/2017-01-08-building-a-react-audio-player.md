@@ -108,4 +108,12 @@ and style them to look like the timeline in the mockup above.
 }
 ```
 
-Not exactly the same look, but close enough.
+Not exactly the same look, but close enough. I think my first task will be to move the handle after getting selected and moving the mouse. To do that, I'll need the position of the handle and the timeline. To get that, I'll need the references to the underlying elements.
+
+```
+<div id="timeline" ref={(timeline) => { this.timeline = timeline }}>
+	<div id="handle" ref={(handle) => { this.handle = handle }} />
+</div>
+```
+
+Awesome! Now I've got the elements. I can start on doing some math. When the handle gets clicked, I've got to move the handle to where the mouse moves to. But I can't move the handle outside of the timeline. I'll need some data: the 
