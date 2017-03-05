@@ -119,6 +119,7 @@ Not exactly the same look, but close enough. I think my first task will be to mo
 ### Dragging the Handle
 Awesome! Now I've got the elements. I can start doing some math. When the handle gets clicked, I've got to move the handle to where the mouse moves, but I can't move the handle outside of the timeline. I'll need some data: the timeline width and the position of the handle based on the left boundary of the timeline and the X-position of the mouse.
 
+#### MouseMove Handler
 ```
 mouseMove = (e) => {
   // Width of the timeline
@@ -143,5 +144,27 @@ if (handleLeft > timelineWidth) {
   this.handle.style.marginLeft = timelineWidth + "px";
 }
 ```
+#### MouseDown and MouseUp
+That's the hard part, but I'm not done yet. To make all of this work correctly, I've got to start by wiring up the MouseDown handler. Gotta click the handler for any of this to work. There's a trick to it though. If I were to add all 3 handlers directly to the handle, the MouseUp and MouseMove events would only fire if the mouse were to hover directly over the handle. Chances are, people aren't that disciplined to hold the mouse directly over the handle and will probably drag along the y-axis some. To solve this, the  MouseDown event  handler will add the MouseMove and the MouseUp events to the window.
+```
+mouseDown = (e) => {
+  window.addEventListener('mousemove', this.mouseMove);
+  window.addEventListener('mouseup', this.mouseUp);
+};
+```
+And the MouseUp event handle will remove the handlers from the window.
+```
+mouseUp = (e) => {
+  window.removeEventListener('mousemove', this.mouseMove);
+  window.removeEventListener('mouseup', this.mouseUp);
+};
+```
+Adding the MouseDown event handler to the handle is the final step to getting the timeline and handler to respond to mouse movements.
+```
+<div id="timeline" ref={(timeline) => { this.timeline = timeline }}>
+  <div id="handle" onMouseDown={this.mouseDown} ref={(handle) => { this.handle = handle }} />
+</div>
+```
+Done, and done!
 
 
