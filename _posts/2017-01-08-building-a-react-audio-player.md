@@ -167,4 +167,12 @@ Adding the MouseDown event handler to the handle is the final step to getting th
 ```
 Done, and done!
 
+### Clicking the Timeline
+In addition to moving the handle through dragging, it would be nice to click the timeline and move the handle directly to the clicked spot. It turns out that it's a pretty easy addition. I can reuse the `mouseMove` handler for the timeline's `onClick` event. I've renamed `mouseMove` to `positionHandle` since it's now used in two places.
+
+I just added the `onClick` handler to the timeline's JSX.
+```
+<div id="timeline" onClick={this.positionHandle} ref={(timeline) => { this.timeline = timeline }}>
+```
+That's it!
 
