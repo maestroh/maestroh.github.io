@@ -79,7 +79,7 @@ componentWillReceiveProps() {
 ```
 ## Timeline
 
-Now things get complicated. I've got to create a timeline with a handle. I want to drag the handle to a specific point in the audio. I also want to move the handle to any point in the timeline when I click on the timeline. I've got to create the UI fefore any functionality gets added. 
+Now things get complicated. I've got to create a timeline with a handle. I want to drag the handle to a specific point in the audio. I also want to move the handle to any point in the timeline when I click on the timeline. I've got to create the UI before any functionality gets added. 
 
 That's probably the easiest part. I can just add a couple of `div` tags . . .
 
@@ -116,4 +116,32 @@ Not exactly the same look, but close enough. I think my first task will be to mo
 </div>
 ```
 
-Awesome! Now I've got the elements. I can start on doing some math. When the handle gets clicked, I've got to move the handle to where the mouse moves to. But I can't move the handle outside of the timeline. I'll need some data: the 
+### Dragging the Handle
+Awesome! Now I've got the elements. I can start doing some math. When the handle gets clicked, I've got to move the handle to where the mouse moves, but I can't move the handle outside of the timeline. I'll need some data: the timeline width and the position of the handle based on the left boundary of the timeline and the X-position of the mouse.
+
+```
+mouseMove = (e) => {
+  // Width of the timeline
+  var timelineWidth = this.timeline.offsetWidth - this.handle.offsetWidth;
+
+  // Left position of the handle
+  var handleLeft = e.pageX - this.timeline.offsetLeft;
+}
+```
+Based on that data, the handle can now follow mouse. The only catch is that the mouse position may go outside of the timeline. I have to set limits around changing the handle position.
+```
+if (handleLeft >= 0 && handleLeft <= timelineWidth) {
+  this.handle.style.marginLeft = handleLeft + "px";
+}
+```
+The final task is to set the handle position if the mouse strays outside of the bounds of the timeline.
+```
+if (handleLeft < 0) {
+  this.handle.style.marginLeft = "0px";
+}
+if (handleLeft > timelineWidth) {
+  this.handle.style.marginLeft = timelineWidth + "px";
+}
+```
+
+
