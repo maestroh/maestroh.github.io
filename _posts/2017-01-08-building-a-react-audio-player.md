@@ -176,3 +176,47 @@ I just added the `onClick` handler to the timeline's JSX.
 ```
 That's it!
 
+### Time
+Now to tie it all together. The handle can be positioned, but it's not tied to the time with the audio being played. The handle will have to move to match the current time while the audio is playing. Also, when the user moves the handle, the audio will have to change the current time. 
+
+#### Updating The Current Time
+While audio is played, the audio HTML element will raise the `timeupdate` event each second. I've got to add a handler for the event in React's `componentDidMount` component lifecycle method. 
+```
+componentDidMount() {
+  this.audio.addEventListener("timeupdate", () => {
+    // add code here to update the handle position
+  });
+};
+```
+Now I've got to update the handle position based on the current time. The good news is that I've got code in the `mouseMove` function that I can reuse. However, `mouseMove` is really used for event handling. In this case, I'll want to pass in a position instead of the event. I can easily accomplish this by refactoring the code out the `mouseMove` function. 
+
+```
+positionHandle = (position) => {
+  let timelineWidth = this.timeline.offsetWidth - this.handle.offsetWidth;
+  let handleLeft = position - this.timeline.offsetLeft;
+  if (handleLeft >= 0 && handleLeft <= timelineWidth) {
+    this.handle.style.marginLeft = handleLeft + "px";
+  }
+  if (handleLeft < 0) {
+    this.handle.style.marginLeft = "0px";
+  }
+  if (handleLeft > timelineWidth) {
+    this.handle.style.marginLeft = timelineWidth + "px";
+  }
+};
+
+mouseMove = (e) => {
+  this.positionHandle(e.pageX);
+};
+```
+OK, I have the `positionHandle` function ready to call from the `timeupdate` event handler, but what is the value of position? The value of `position` should be the same ratio as the current time of the audio divided by the total time of the audio. Awesome math time! Now that I've done my amazing 7th grade level analysis, I can add the code to the `timeupdate` event listener.
+```
+componentDidMount() {
+  this.audio.addEventListener("timeupdate", () => {
+    let ratio = this.audio.currentTime / this.audio.duration;
+    let position = this.timeline.offsetWidth * ratio;
+    this.positionHandle(position);
+  });
+};
+```
+The handler position should now update when the audio plays. 
