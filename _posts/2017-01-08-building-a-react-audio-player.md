@@ -168,18 +168,18 @@ Adding the MouseDown event handler to the handle is the final step to getting th
 Done, and done!
 
 ### Clicking the Timeline
-In addition to moving the handle through dragging, it would be nice to click the timeline and move the handle directly to the clicked spot. It turns out that it's a pretty easy addition. I can reuse the `mouseMove` handler for the timeline's `onClick` event. I've renamed `mouseMove` to `positionHandle` since it's now used in two places.
+In addition to moving the handle through dragging, it would be nice to click the timeline and move the handle directly to the clicked spot. It turns out that it's a pretty easy addition. I can reuse the `mouseMove` handler for the timeline's `onClick` event. 
 
 I just added the `onClick` handler to the timeline's JSX.
 ```
-<div id="timeline" onClick={this.positionHandle} ref={(timeline) => { this.timeline = timeline }}>
+<div id="timeline" onClick={this.mouseMove} ref={(timeline) => { this.timeline = timeline }}>
 ```
 That's it!
 
 ### Time
 Now to tie it all together. The handle can be positioned, but it's not tied to the time with the audio being played. The handle will have to move to match the current time while the audio is playing. Also, when the user moves the handle, the audio will have to change the current time. 
 
-#### Updating The Current Time
+#### Updating The Timeline
 While audio is played, the audio HTML element will raise the `timeupdate` event each second. I've got to add a handler for the event in React's `componentDidMount` component lifecycle method. 
 ```
 componentDidMount() {
@@ -220,3 +220,14 @@ componentDidMount() {
 };
 ```
 The handler position should now update when the audio plays. 
+
+#### Updating The Current Time
+Final step is to update the current time of the audio when the handler is moved on the timeline. Instead of taking the ratio of the current time, I now need to take the ratio of handler position to the width of the timeline and multiply it by the total time of the audio. Then I can set the current time to the calculated amount any time the handler moves.
+```
+mouseMove = (e) => {
+  this.positionHandle(e.pageX);
+  this.audio.currentTime = (e.pageX / this.timeline.offsetWidth) * this.audio.duration;
+};
+```
+### Wrap Up
+That took a lot longer than I thought it would. All in all, it's still a relatively small component but it does so much. You can see the code for the component [here](https://github.com/maestroh/streamer/blob/ff2804d8c0415dbbdec47b9d8774dc21d369bff2/frontend/src/Player.js).
