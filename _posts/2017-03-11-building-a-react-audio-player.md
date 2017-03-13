@@ -231,3 +231,6 @@ mouseMove = (e) => {
 ```
 ### Wrap Up
 That took a lot longer than I thought it would. All in all, it's still a relatively small component but it does so much. You can see the code for the component [here](https://github.com/maestroh/streamer/blob/ff2804d8c0415dbbdec47b9d8774dc21d369bff2/frontend/src/Player.js).
+
+### Update 3-12-2017
+Found a bug with the handle positioning. If the timeline isn't on the very left of the page, I had to take the offset of the timeline from the left of the page. You can view the updates in [this commit](https://github.com/maestroh/streamer/blob/5fc7df31e91bcc897366321d734104be1a5de1d2/frontend/src/Player.js)
