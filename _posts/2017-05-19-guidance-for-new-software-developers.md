@@ -4,7 +4,7 @@ title: Guidance For New Software Developers
 ---
 
 
-I always get asked where new devs should focus to start their careers. Your best bet is to rise above the rapid pace of technology changes and spend some time on key fundamentals. Fundamentals will help you grow no matter what language or tech stack you've chosen to follow. I spend a lot of time guiding members of my team to build intuition about the actions they can take to level up quickly. Here are my thoughts, right or wrong, on what makes the best developers.
+I always get asked where new devs should focus to start their careers. Your best bet is to rise above the rapid pace of technology changes and spend some time on key fundamentals. Fundamentals will help you grow no matter what language or tech stack you've chosen to follow. I spend a lot of time guiding teammates about the actions they can take to level up quickly. Here are my thoughts, right or wrong, on what makes the best developers.
 
 ## Read
 Read! Read books. Read tweets. Read RFCs. Read articles. Read newsletters. Read, Read, Read! Try to expand your horizons. Read about stuff that might interest you in a couple of years. Spend time learning about new technologies or best practices you keep hearing about. Reading helps to broaden your vision so you don't get siloed in one tech stack or way of thinking.
