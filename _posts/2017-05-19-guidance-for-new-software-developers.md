@@ -13,6 +13,7 @@ Read! Read books. Read tweets. Read RFCs. Read articles. Read newsletters. Read,
 Reading is worthless if it's only knowledge in your head. And I don't care how much you read, you won't understand a technology unless you try it out. You'll be able to speak about it, and may know what you're talking about. You may have read so much, you can even talk your way through an interview. But the moment you're asked to follow through on your knowledge, you'll be stuck. Practicing is as important as reading. It's what builds muscle memory so you know where to start when you're given a task. Start working on your github profile. Write a react app. Write a node app. Write a python app. Start playing with webpage design, machine learning or anything that may interest you. Your github projects don't have to be perfect. I say forget perfection and shoot for quantity. Expose yourself to as many technologies as you can. Have fun with it. Don't get bogged down in making something beautiful and perfect. Do enough grow your technical toolbox. 
 
 ## Write Ugly Code That Works
+You'll hear a lot about using best practices when writing your code. It's hard to remember best practices when you use a technology for the first time. You're trying to build something new and make it nice when you create and follow best practices. It's like trying to remodel your kitchen and keep it clean at the same time. Forget that! Write bad code. Understand it. Make it work. Clean it up later. You'll move faster and it will be much less stressful.
 
 ## Refactor
 
