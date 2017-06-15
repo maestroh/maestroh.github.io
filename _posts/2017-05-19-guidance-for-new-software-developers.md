@@ -24,7 +24,7 @@ I've never met anyone that says they're a bad problem solver. What I find is tha
 You'll hear a lot about using best practices when writing your code. It's hard to remember best practices when you use a technology for the first time. You make it hard on yourself when you try to follow best practices during the creative process. It's like trying to remodel your kitchen and keep it clean at the same time. Forget that! Write bad code. Understand it. Make it work. Clean it up later. You'll move faster and it will be much less stressful.
 
 ## Refactor
-It's time to clean up that ugly code. It's called "refactoring" in software lingo. Get into the habit of rewriting your code. You would never consider a rough draft of a paper to be final copy. The same thing goes for code. Your ugly code is a rough draft. Now that it's  all written and working, it's time to refactor and to focus on best practices. You know what to write because you've spend time understanding the code. You can now focus on making it nice and maintainable without having to worry too much about how to make it work.
+It's time to clean up that ugly code. It's called "refactoring" in software lingo. Get into the habit of rewriting your code. You would never consider a rough draft of a paper to be the final copy. The same thing goes for code. Your ugly code is a rough draft. Now that it's  all written and working, it's time to refactor and to focus on best practices. You know what to write because you've spent time understanding the code. You can now focus on making it nice and maintainable without having to worry too much about how to make it work.
 
 #### Find Out More
 - [Refactoring](https://www.amazon.com/gp/product/0201485672?ie=UTF8&tag=martinfowlerc-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0201485672)
@@ -39,7 +39,7 @@ Writing unit tests allow you to refactor with confidence. You don't want to wast
 There are a lot of best practices out there. Idiomatic practices are specific to the technology or language you're using. If you are writing code in Ruby on Rails, don't try to make it look like Java code. Other than idiomatic principles, try to follow the more general SOLID principles. These ideas will help you keep your code clean, maintainable and understandable. Finally, look into Design Patterns. There a ton of design patterns. Some are specific to object oriented design, some to functional design. Generally, understanding some basic design patterns will help you from reinventing the wheel. 
 
 #### Find Out More
-- [Solid Principles](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
+- [SOLID Principles](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
 - [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124/ref=pd_sim_14_7?_encoding=UTF8&pd_rd_i=0596007124&pd_rd_r=9M20HZ32KP46Z7FEJG4M&pd_rd_w=BdV8a&pd_rd_wg=F2orH&psc=1&refRID=9M20HZ32KP46Z7FEJG4M)
 
 ## Deploy Some Code
