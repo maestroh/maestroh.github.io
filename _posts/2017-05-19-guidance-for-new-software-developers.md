@@ -12,7 +12,7 @@ Read! Read books. Read tweets. Read RFCs. Read articles. Read newsletters. Read,
 ## Practice
 Reading is worthless if it's only knowledge in your head. And I don't care how much you read, you won't understand a technology unless you try it out. You'll be able to speak about it, and may know what you're talking about. You may have read so much, you can even talk your way through an interview. But the moment you're asked to follow through on your knowledge, you'll be stuck. Practicing is as important as reading. It's what builds muscle memory so you know where to start when you're given a task. Start working on your github profile. Write a react app. Write a node app. Write a python app. Start playing with webpage design, machine learning or anything that may interest you. Your github projects don't have to be perfect. I say forget perfection and shoot for quantity. Expose yourself to as many technologies as you can. Have fun with it. Don't get bogged down in making something beautiful and perfect. Do enough to grow your technical toolbox. 
 
- ## Learn Problem Solving Techniques 
+## Learn Problem Solving Techniques 
 I've never met anyone that says they're a bad problem solver. What I find is that most people solve problems with gut feeling. That works well if you're experienced in an area. As software developers, you'll find yourself in the unknown all the time. That's where problem solving techniques can help. The most well known problem solving technique is the scientific method. Find an unknown, create a hypothesis to test the unknown, record the results and repeat. Stop guessing and get to the root of the problem by following established techniques. 
 
 #### Find Out More
