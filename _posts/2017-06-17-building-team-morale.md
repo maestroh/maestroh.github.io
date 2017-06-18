@@ -25,12 +25,14 @@ Low Productivity        (Breakdown)                                       (Bliss
                         
        
 
-Everyone wants their team to be a highly productive. It can be a delicate balance. If you push your teams too hard, they'll stress out. If you don't push enough, they won't produce. Theh goal is to create a happy, productive team. I've worked on all kinds of environments before. After some thinking, I've come up with some quick categories for team types. 
+Everyone wants their team to be a highly productive. It can be a delicate balance. If you push your teams too hard, they'll stress out. If you don't push enough, they won't produce. Cracking the whip isn't the only way of encouraging your team to produce. Actually, putting pressure on them is probably the least effective way. I've worked in all kinds of environments before. The best teams are the ones that give team members the indepedence to shine. Those are the least stressful and most productive environments you can create.
+
+## Team Types
 
 || Sad | Happy |
 |---|---|---|
-| High Productivity | Micromanaged | In The Zone |
-| Low Productivity | Breakdown | Blissful |
+| **High Productivity** | Micromanaged | In The Zone |
+| **Low Productivity** | Breakdown | Blissful |
 
 Each category has its own indicators. Perhaps you've worked on some of these teams. Looking for these indicators may help you identify which quadrant your team falls into, and could help you move more towards getting your team "In The Zone".
 
