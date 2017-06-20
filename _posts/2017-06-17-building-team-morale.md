@@ -2,29 +2,6 @@
 layout: post
 title: Building Team Morale
 ---
-
-High Productivity       (Micromanaged)                                    (In the Zone)
-                        micromanagement                                   Team goals align with business goals
-                        team focused on wrong metrics                     Team focused on delivering best product
-                         (budget, time, CYA)                              Individuals self empowered
-                        high turnover                                     High Morale
-                        Individuals can't make decisions
-                        
-
-
-
-Low Productivity        (Breakdown)                                       (Blissful)
-                        no structure,                                     some structure
-                        finger pointing                                   no accountability  
-                        high turnover                                     low turnover
-                                                                          low ambition - status quo
-
-
-                        sad                                                 happy
-                        
-                        
-       
-
 Everyone wants a highly productive team. It can be a delicate balance. If you push your teams too hard, they'll stress out. If you don't push enough, they won't produce. Cracking the whip isn't the only way of encouraging your team to produce. Actually, putting pressure on them is probably the least effective way. I've worked in all kinds of environments before. The best teams are the ones that give team members the indepedence to shine. Those are the least stressful and most productive environments you can create.
 
 ## Team Types
@@ -41,11 +18,14 @@ Disfunctional teams are run by fear. Either the team members are afraid of makin
 These teams are hyperfocused on people and have low turnover as a result. Team members are happy on these teams and can't imagine it could get any better. But it can get better. Products delivered by these teams are not always in line with business needs. There is a lack accountability, and team members will have low ambition since there's no reason to leave. 
 
 ### Micromanaged Teams
-Micromanaged teams focus on metrics that lead to value for the company, but may the wrong metrics for the team to excel. Metrics could include budget or time instead of delivering a high quality product. Or the team could spend a lot of time playing CYA as to not take responsibility for any mistakes. The tight restriction on the wrong focus removes any decisions individuals could make leading to less job fulfillment and high turnover.
+Micromanaged teams focus on metrics that lead to value for the company, but are the wrong metrics for the team to excel. Metrics could include budget or time instead of delivering a high quality product. Or the team could spend a lot of time playing CYA as to not take responsibility for any mistakes. The tight restriction on the wrong focus removes any decisions individuals could make leading to less job fulfillment and high turnover.
 
 ### In The Zone
 Focus: business vision
 Result: High morale, high productivity low waste, high individual fulfullment, low stress, light atmosphere, having  fun
+Teams get in the zone when they align their effort with business vision. 
+
+
 
 Low producing teams fall into two categories: micromanaged and stressed, or happy and unsctructured. High producing teams tend to be happy and structured.
 
