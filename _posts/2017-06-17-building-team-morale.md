@@ -25,17 +25,17 @@ Low Productivity        (Breakdown)                                       (Bliss
                         
        
 
-Everyone wants their team to be a highly productive. It can be a delicate balance. If you push your teams too hard, they'll stress out. If you don't push enough, they won't produce. Cracking the whip isn't the only way of encouraging your team to produce. Actually, putting pressure on them is probably the least effective way. I've worked in all kinds of environments before. The best teams are the ones that give team members the indepedence to shine. Those are the least stressful and most productive environments you can create.
+Everyone wants a highly productive team. It can be a delicate balance. If you push your teams too hard, they'll stress out. If you don't push enough, they won't produce. Cracking the whip isn't the only way of encouraging your team to produce. Actually, putting pressure on them is probably the least effective way. I've worked in all kinds of environments before. The best teams are the ones that give team members the indepedence to shine. Those are the least stressful and most productive environments you can create.
 
 ## Team Types
+Understanding different team types will help you to identify key characteristics of your team.
+
 ![Team Types](/img/teamTypes.png)
 
 Teams can fall along 2 axes; one for productivity and one for mood. The vertical dimension is productivity where high productivity is at the top. The horizontal dimension is mood where the team members are happier in the  positive direction. The graph above breaks teams down into 4 types based on these criteria. Each type of team has its own characteristics. Perhaps you've worked on some of these teams. Identifying where you team lies on these dimensions could help you move towards getting your team "In The Zone".
 
 ### Disfunctional Teams
-Focus:fear
-Result: lack of structure, low production, toxic atmosphere, finger pointing, gossiping
-Disfunctional teams are run by fear. Either the team members are afraid of making a mistake. Or the team's manager is afraid of looking bad. Whatever the reason, these teams are constantly scared. The energy spent on address fears distracts from organization and process. The process in place is poor and the atmosphere is toxic. You might have a lot of folks gossiping and you probably have a lot of turn over. Blame gets spread around and no one takes responsibility. The focus of these teams has nothing to do with the team's success. You  see this situation if a team is seen as a cost center by a company. The focus changes from delivery to cutting costs or not screwing up in general. 
+Disfunctional teams are run by fear. Either the team members are afraid of making a mistake. Or the team's manager is afraid of looking bad. Whatever the reason, these teams are constantly scared. The energy spent dealing with these fears creates a toxic environment. You might have a lot of folks gossiping and finger pointing leading to a lot of turn over. Blame gets spread around and no one takes responsibility. 
 
 ### Blissful Teams
 Focus:people
