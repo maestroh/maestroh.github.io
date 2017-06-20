@@ -35,21 +35,17 @@ Understanding different team types will help you to identify key characteristics
 Teams can fall along 2 axes; one for productivity and one for mood. The vertical dimension is productivity where high productivity is at the top. The horizontal dimension is mood where the team members are happier in the  positive direction. The graph above breaks teams down into 4 types based on these criteria. Each type of team has its own characteristics. Perhaps you've worked on some of these teams. Identifying where you team lies on these dimensions could help you move towards getting your team "In The Zone".
 
 ### Disfunctional Teams
-Disfunctional teams are run by fear. Either the team members are afraid of making a mistake. Or the team's manager is afraid of looking bad. Whatever the reason, these teams are constantly scared. The energy spent dealing with these fears creates a toxic environment. You might have a lot of folks gossiping and finger pointing leading to a lot of turn over. Blame gets spread around and no one takes responsibility. 
+Disfunctional teams are run by fear. Either the team members are afraid of making a mistake. Or the team's manager is afraid of looking bad. Whatever the reason, these teams are constantly scared. The energy spent dealing with these fears creates a toxic environment. Lots of folks are gossipping and finger pointing leading to high turn over. Blame gets spread around and no one takes responsibility. 
 
 ### Blissful Teams
-Focus:people
-Result: low turnover, happy team memberse, delivered products don't match business needs, lack of accountability and low team abition
-These teams have some structure. These teams are hyperfocused on retention and have low turnover as a result. Team members are happy on these teams and can't imagine it could get any better. But it can get better. Products delivered by these teams are not always in line with business needs. There is a lack accountability, and team members will have low ambition since there's no reason to leave. 
+These teams are hyperfocused on people and have low turnover as a result. Team members are happy on these teams and can't imagine it could get any better. But it can get better. Products delivered by these teams are not always in line with business needs. There is a lack accountability, and team members will have low ambition since there's no reason to leave. 
 
 ### Micromanaged Teams
-Focus: wrong metrics
-Result: metrics don't line up with team success, no individual autonomy, low job fulfillment, high turnover
-These teams have lots of structure. The metrics focused on (?) by these teams could be inline with business outcomes, but aren't the right metrics to make the team excel. Metrics could include budget or time instead of delivering a high quality product. Or the team could spend a lot of time playing CYA as to not take responsibility for any mistakes. The tight restriction on the wrong focus removes any decisions individuals could make leading to less job fulfillment and high turnover.
+Micromanaged teams focus on metrics that lead to value for the company, but may the wrong metrics for the team to excel. Metrics could include budget or time instead of delivering a high quality product. Or the team could spend a lot of time playing CYA as to not take responsibility for any mistakes. The tight restriction on the wrong focus removes any decisions individuals could make leading to less job fulfillment and high turnover.
 
 ### In The Zone
 Focus: business vision
-Result: High morale, high productivity low waste, high individual fulfullment, low stress, light atmosphere
+Result: High morale, high productivity low waste, high individual fulfullment, low stress, light atmosphere, having  fun
 
 Low producing teams fall into two categories: micromanaged and stressed, or happy and unsctructured. High producing teams tend to be happy and structured.
 
