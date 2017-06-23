@@ -8,6 +8,9 @@ title: Building Team Morale
 ### Progress
 1. nothing makes devs happier than making quick progress
 2. getting stuff behind them and to change focus to new things keeps the atmosphere upbeat
+3. skips over the small problems and focuses on the hard ones
+4. quick progress leads to happy stakeholders which givevs the team purpose
+
 
 ### My Way (Really Their Way)
 1. Give people space to be creative
@@ -42,13 +45,23 @@ title: Building Team Morale
 1. Allow devs to focus
 2. Block any irrelivant items
 3. Only interrupt devs if the reason is a higher priority than what they're working on and is urgent!
+4. 
 
 
 ### Give Growth Opportunities
+1. Provide new paths for team members
+2. Always stretch team members ability
+3. Keep people out of their comfort zone with the promise of growth
+4. Pay attention to stress levels to make sure you don't over do it
 
-### Limit Silos or Crosstrain
+### Limit Silos or Cross train
+1. Share the load between developers
+2. Don't make a dev responsible for just one thing
+3. They get bored and stuck 
+4. Change it up and make it interesting
 
 ### Give Praise
+1. 
 
 ### Create An Educational Environment
 
