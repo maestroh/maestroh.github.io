@@ -6,33 +6,48 @@ title: Building Team Morale
 
 
 ### Progress
+Why this is important:
 1. nothing makes devs happier than making quick progress
 2. getting stuff behind them and to change focus to new things keeps the atmosphere upbeat
 3. skips over the small problems and focuses on the hard ones
 4. quick progress leads to happy stakeholders which givevs the team purpose
+How:
+1. break tasks into small chunks 
+2. organize tasks into logical groups
+3. identify when a logical group has completed
 
 
 ### My Way (Really Their Way)
+Why this is important:
+1. People know their own strenghts and weaknesses, and can take advantage of those strengths in ways you may not understand
+2. When people take responsibility and succeed, they will be much happier
+3. If you tell people how to do stuff, and they try to do it your way and fail, they'll blame you
+4. If they do it their way and fail, they'll learn
+
+How:
 1. Give people space to be creative
-2. People know their own strenghts and weaknesses, and can take advantage of those strengths in ways you may not understand
-3. If someone says they can do something, give them the resources they need. They will usually surprise you
-4. When people take responsibility and succeed, they will be much happier
-5. If you tell people how to do stuff, and they try to do it your way and fail, they'll blame you
-6. If they do it their way and fail, they'll learn
+2. If someone says they can do something, give them the resources they need. They will usually surprise you
+
 
 ### Don't Micromanage
+Why this is important:
 1. Micromanaging sends a signal that you don't trust your team
 2. Turns the leader into a bottleneck
 3. People won't be able to think for themselves
 4. Software developers are creative. Micromanaging kills that creativity.
-5. 
+
+How:
+1. Instead of micromanaging, set goals and keep repeating. See the next section
 
 ### Set Clear Goals
+Why this is important:
 1. You may have the total vision in your head
 2. Setting clear goals and expectations gives people assurance that they are moving the same direction
 3. Clear goals, rather than micromanaged instructions, allows people to think for themselves and move towards the goal their  own way
 4. Setting goals allows leaders to reduce their own workload 
-5. 
+
+How:
+1. 
 
 ### Create A Process That Fits
 1. Freedom is a great way to make sure creativity flourishes
@@ -61,9 +76,13 @@ title: Building Team Morale
 4. Change it up and make it interesting
 
 ### Give Praise
-1. 
+1. Let's people know when they've moved towards goals
+2. Creates a positive environment
+3. 
 
 ### Create An Educational Environment
+1. Enourage everyone to learn
+2. Encourages growth
 
 ### Ask Questions Before Shooting Down Ideas
 
