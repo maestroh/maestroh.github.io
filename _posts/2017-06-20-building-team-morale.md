@@ -3,6 +3,22 @@ layout: post
 title: Building Team Morale
 ---
 
+Good leaders work hard to keep morale high on teams. Teams with high morale perform better, adapt quicker to changes, and are better equiped to handle pressure. That's all great, but what exactly is morale and how can you improve it on your team. When use the term morale, I'm not just talking about happiness. Happy teams are great, but happiness is only one aspect of what gives a team high morale. You want teams to adapt and overcome problems. Morale is part happiness, part confidence, and part focus. 
+
+confidence from progress
+progress from momentum
+momentum from process
+
+focus from process
+process from setting goals
+setting goals clears distractions
+
+happiness from freedom
+freedom from lack of micromanagament
+happiness from growth opportunities
+happiness from praise
+
+
 
 
 ### Progress
