@@ -47,14 +47,20 @@ Why this is important:
 4. Setting goals allows leaders to reduce their own workload 
 
 How:
-1. 
+1. Define the goals
+2. Repeat goals regularly
+3. Connect actions with goals
 
 ### Create A Process That Fits
+Why this is important:
 1. Freedom is a great way to make sure creativity flourishes
 2. Too much freedom leads to no accountability
 3. The right process can constrain a team just enough to push them in the right direction
 4. Think of process as guard rails. You want to keep the path wide open, but don't want anyone to fall off the cliff
-5. 
+
+How:
+1. Each team is different and expectations for that team's delivery and external communication is different
+2. 
 
 ### Block the BS (Give Uninterrupted Time)
 1. Allow devs to focus
